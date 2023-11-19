@@ -1,0 +1,24 @@
+.picker {
+    display: inline-block;
+    width: 30%;
+}
+
+.dateAndTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsCon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textField {
+    margin-top: 20px;
+}
+
+.subText {
+    font-size: 14px;
+    color: darkgray;
+}

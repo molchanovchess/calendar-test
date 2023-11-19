@@ -1,0 +1,9 @@
+.muix-datepicker-input.today {
+    background-color: #ff6666;
+    color: white;
+}
+
+.muix-datepicker-input.selected {
+    background-color: #3399ff;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.calendar-day {
+    width: 14.28%;
+    box-sizing: border-box;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.today {
+    background-color: #ff6666;
+    color: white;
+}
+
+div.selected {
+    background-color: #3399ff;
+    color: white;
+}
+
+.empty-day {
+    width: 14.28%;
+    height: 48px;
+}
+
+.dayOfWeek {
+    color: #3399ff;
+    font-size: small;
+    font-weight: 700;
+}
+.selected .dayOfWeek, .today .dayOfWeek {
+    color: white;
+}

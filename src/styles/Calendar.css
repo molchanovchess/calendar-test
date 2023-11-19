@@ -1,0 +1,71 @@
+.calendar {
+    max-width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.days {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 8px;
+}
+
+.day-label {
+    width: 14.28%; /* (100% / 7) */
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+.calendar-day {
+    width: 14.28%; /* (100% / 7) */
+    height: 20%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.today {
+    background-color: #ff6666;
+    color: white;
+}
+
+.empty-day {
+    width: 14.28%; /* (100% / 7) */
+    height: 48px;
+}
+
+.day-picker {
+    margin-bottom: 10px;
+}
+
+.monthpicker {
+    display: inline-block;
+    width: fit-content;
+}
+
+.datePicker {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.createdBy {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -150%);
+}
+
